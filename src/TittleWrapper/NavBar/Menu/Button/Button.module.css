@@ -1,0 +1,22 @@
+.Button{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    background: none;
+    height: auto;
+}
+.Button:hover{
+    cursor: pointer;
+}
+
+.Button > p{
+    font-size: 1.2rem;
+}
+.Button > p:hover {
+    transition: border 1s ease-in-out;
+    border-bottom: .1rem solid white;
+}
+.registrButton{
+
+}
