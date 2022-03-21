@@ -22,8 +22,8 @@
     border-bottom: .1rem solid white;
 }
 
-.registerButton {
-
+.RegisterButton {
+    font-size: 1rem;
 }
 
 .MainUpButton {
@@ -31,7 +31,7 @@
     background: brown;
     height: 100%;
     width: 100%;
-    border-radius: 3rem 3rem 0 0;
+    border-radius: 2rem 2rem 0 0;
     border: .1rem solid blue;
     border-bottom: 0;
     text-transform: uppercase;
@@ -55,9 +55,9 @@
     font-weight: 400;
     top: 100%;
     left: 0;
-    height: 8rem;
+    height: 6rem;
     width: 20rem;
-    border-radius: 0 0 3rem 3rem;
+    border-radius: 0 0 0 2rem;
     background: blue;
     color: brown;
 }

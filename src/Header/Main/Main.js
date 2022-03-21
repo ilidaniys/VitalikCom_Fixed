@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Main.module.css'
 import headerImage from './header-image.webp'
-import Button from "../NavBar/Menu/Button/Button";
+import Button from "../../Button/Button";
 
 const Main = () => {
     return (

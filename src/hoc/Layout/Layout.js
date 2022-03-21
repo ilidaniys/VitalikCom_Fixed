@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from "../../Header/NavBar/NavBar";
 import classes from './Layout.module.css'
 
 
