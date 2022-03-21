@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    height: 20rem;
+    height: 24rem;
     border-radius: 0 0 2rem;
     width: 150%;
     background: red;
@@ -26,6 +26,6 @@
 
 .ButtonWrapper {
     position: relative;
-    top: 70%;
+    top: 85%;
     right: 30%;
 }
