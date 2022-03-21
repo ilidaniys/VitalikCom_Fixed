@@ -1,4 +1,4 @@
-.Button{
+.Button {
     padding: 0;
     color: white;
     margin-top: auto;
@@ -8,17 +8,62 @@
     height: auto;
     width: auto;
 }
-.Button:hover{
+
+.Button:hover {
     cursor: pointer;
 }
 
-.Button > p{
+.NavButton {
+
+}
+
+.NavButton > p {
     font-size: 1rem;
 }
-.Button > p:hover {
+
+.NavButton > p:hover {
     transition: border 1s ease-in-out;
     border-bottom: .1rem solid white;
 }
-.registrButton{
 
+.registerButton {
+
+}
+
+.MainUpButton {
+    /*left: 10rem;*/
+    /*margin-right: 10rem;*/
+    margin-left: 20rem;
+    padding: 0;
+    background: brown;
+    height: 100%;
+    width: 20rem;
+    border-radius: 3rem 3rem 0 0 ;
+    border: .2rem solid blue;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.MainUpButton:hover{
+    background: blue;
+    color: brown;
+}
+
+
+
+
+
+.MainUpButton > p:hover{
+    color: brown;
+}
+
+
+.MainDownButton {
+    position: absolute;
+}
+
+.MainDownButton > p {
+    text-transform: uppercase;
 }

@@ -1,12 +1,18 @@
 import React from 'react';
 import classes from './Button.module.css'
 
-const Button = (props) => (
-    <button
-        className={classes.Button}
-    >
-        <p>{props.children}</p>
-    </button>
-);
+const Button = (props) => {
+    const cls = [
+        classes.Button,
+        classes[props.type]
+    ]
+    return (
+        <button
+            className={cls.join(' ')}
+        >
+            {props.children}
+        </button>
+    )
+};
 
 export default Button;

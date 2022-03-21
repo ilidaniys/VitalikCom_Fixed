@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Main.module.css'
 import headerImage from './header-image.webp'
+import Button from "../NavBar/Menu/Button/Button";
 
 const Main = () => {
     return (
@@ -16,6 +17,14 @@ const Main = () => {
                 <p>Getting quality product deliverables to tight deadlines can seem impossible, we help you find talent,
                     build teams and launch products</p>
                 <img src={headerImage} alt="header-image"/>
+                <div className={classes.ButtonWrapper}>
+                    <Button type={'MainUpButton'}>
+                        See More
+                    </Button>
+                    <Button type={'MainDownButton'}>
+                        Contact Us
+                    </Button>
+                </div>
             </div>
         </>
     );
