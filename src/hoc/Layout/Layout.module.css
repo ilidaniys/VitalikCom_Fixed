@@ -1,6 +1,6 @@
 .Layout{
     position: relative;
-    width: 86%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -10,11 +10,3 @@
 
 }
 
-.Background{
-    z-index: -100;
-    position: absolute;
-    height: 100%;
-    width: 100vw;
-    background: brown;
-    border-radius: 0 0 0 12rem;
-}
