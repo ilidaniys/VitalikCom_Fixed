@@ -4,6 +4,7 @@ import headerImage from './header-image.webp'
 import Button from "../../Button/Button";
 
 const Main = () => {
+
     return (
         <>
             <div className={classes.Main}>
@@ -21,9 +22,11 @@ const Main = () => {
                     <Button type={'MainUpButton'}>
                         See More
                     </Button>
+                    <div className={classes.positionHeaderButton}>
                     <Button type={'MainDownButton'}>
                         Contact Us
                     </Button>
+                    </div>
                 </div>
             </div>
         </>

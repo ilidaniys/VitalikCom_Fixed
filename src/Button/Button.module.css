@@ -53,13 +53,16 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 400;
-    top: 100%;
-    left: 0;
     height: 6rem;
     width: 20rem;
     border-radius: 0 0 0 2rem;
     background: blue;
     color: brown;
+}
+
+.positionHeaderButton {
+    top: 100%;
+    left: 0;
 }
 
 .MainDownButton:hover {

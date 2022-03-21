@@ -1,0 +1,31 @@
+.FirstWrapper {
+    position: relative;
+    display: flex;
+    /*padding-bottom: 10rem;*/
+    height: 24rem;
+}
+
+.ImgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20rem;
+    border-radius: 0 0 2rem;
+    width: 150%;
+    background: red;
+    z-index: -100;
+}
+
+.ButtonWrapper {
+    position: relative;
+    top: 70%;
+    right: 30%;
+}
