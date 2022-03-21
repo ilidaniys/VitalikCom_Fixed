@@ -40,7 +40,8 @@
 
 .ButtonWrapper{
     margin-top: auto;
-    background: aqua;
+    margin-left: 20rem;
     position: relative;
     height: 8rem;
+    width: 20rem;
 }

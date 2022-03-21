@@ -31,13 +31,10 @@
 }
 
 .MainUpButton {
-    /*left: 10rem;*/
-    /*margin-right: 10rem;*/
-    margin-left: 20rem;
     padding: 0;
     background: brown;
     height: 100%;
-    width: 20rem;
+    width: 100%;
     border-radius: 3rem 3rem 0 0 ;
     border: .2rem solid blue;
     text-transform: uppercase;
@@ -52,18 +49,20 @@
 }
 
 
-
-
-
-.MainUpButton > p:hover{
-    color: brown;
-}
-
-
 .MainDownButton {
     position: absolute;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    top: 100%;
+    left: 0;
+    height: 8rem;
+    width: 20rem;
+    border-radius: 0 0 3rem 3rem;
+    background: blue;
+    color: brown;
+}
+.MainDownButton:hover {
+background: #4646ff;
 }
 
-.MainDownButton > p {
-    text-transform: uppercase;
-}
