@@ -1,17 +1,19 @@
 .Button{
+    padding: 0;
     color: white;
     margin-top: auto;
     margin-bottom: auto;
     border: none;
     background: none;
     height: auto;
+    width: auto;
 }
 .Button:hover{
     cursor: pointer;
 }
 
 .Button > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .Button > p:hover {
     transition: border 1s ease-in-out;
