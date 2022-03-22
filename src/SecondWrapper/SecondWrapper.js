@@ -15,19 +15,16 @@ const SecondWrapper = () => {
         <div className={classes.SecondWrapper}>
             <TextWrapper>
                 <h1>
-                    HOW
+                    OUR
                     <span>
-                        QUONTEX
+                        EXPERTISE
                     </span>
-                    CAN HELP YOUR PROJECT
                 </h1>
-                <p>Trust you can Verify. We know your outsourcing fears. Talk with our clients. Have transparent access
-                    to developer metrics.
-                    Tap into our proven formula using extended Agile teams to drive your product’s success. Our team
-                    specializes in product delivery using today’s cutting-edge technologies - from AI/ML to Big Data and
-                    the Cloud.</p>
-                <div className={classes.Block}>
-                <BlockWrapper>
+                <p>This section should include a wide selection of developers that are available to hire across multiple
+                    specialties and technologies. Later, we'll create separate landing pages for each.</p>
+            </TextWrapper>
+            <div className={classes.Block}>
+                <BlockWrapper title={'PROGRAMMING LANGUAGES'}>
                     <img src={img1} alt="imge1"/>
                     <img src={img2} alt="imge2"/>
                     <img src={img3} alt="imge3"/>
@@ -35,16 +32,15 @@ const SecondWrapper = () => {
                     <img src={img5} alt="imge5"/>
                     <img src={img6} alt="imge6"/>
                 </BlockWrapper>
-                    <BlockWrapper>
-                        <img src={img1} alt="imge1"/>
-                        <img src={img2} alt="imge2"/>
-                        <img src={img3} alt="imge3"/>
-                        <img src={img4} alt="imge4"/>
-                        <img src={img5} alt="imge5"/>
-                        <img src={img6} alt="imge6"/>
-                    </BlockWrapper>
-                </div>
-            </TextWrapper>
+                <BlockWrapper title={'CLOUDS AND DATA LAKES'}>
+                    <img src={img1} alt="imge1"/>
+                    <img src={img2} alt="imge2"/>
+                    <img src={img3} alt="imge3"/>
+                    <img src={img4} alt="imge4"/>
+                    <img src={img5} alt="imge5"/>
+                    <img src={img6} alt="imge6"/>
+                </BlockWrapper>
+            </div>
         </div>
     );
 };

@@ -1,12 +1,27 @@
-.BlockWrapper{
+.BlockWrapper {
+    margin-top: 1rem;
     padding: 1rem;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    border: .0625rem solid #000000;
+    border-radius: 2rem 2rem 0 2rem;
+    grid-template-rows: 1fr 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
-.MoreContent{
 
+.BlockWrapper:hover{
+    transition: box-shadow .1s ease-in-out;
+    box-shadow: 0 0 .4rem .2rem #FED088;
+}
+
+.MoreContent {
+
+}
+
+
+.BlockParagraf {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .BlockWrapper > img {
@@ -16,3 +31,4 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
