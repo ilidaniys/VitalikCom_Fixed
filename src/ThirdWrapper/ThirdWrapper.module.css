@@ -1,0 +1,11 @@
+.SecondWrapper {
+    /*background: orange;*/
+    width: 100%;
+
+}
+
+.Block {
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+}
