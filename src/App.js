@@ -3,6 +3,7 @@ import './App.css';
 import Layout from "./hoc/Layout/Layout";
 import Header from "./Header/Header";
 import FirstWrapper from "./FirstWrapper/FirstWrapper";
+import SecondWrapper from "./SecondWrapper/SecondWrapper";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Layout>
                 <Header/>
                 <FirstWrapper/>
+                <SecondWrapper/>
             </Layout>
         </div>
     );

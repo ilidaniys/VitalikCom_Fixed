@@ -1,0 +1,12 @@
+.TextWrapper{
+    /*display: inline-block;*/
+}
+
+.TextWrapper > h1 {
+    display: flex;
+    gap: .5rem;
+}
+
+.TextWrapper > h1 > span {
+    color: #0000ff;
+}
