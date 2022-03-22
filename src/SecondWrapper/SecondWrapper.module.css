@@ -3,3 +3,8 @@
     width: 100%;
 
 }
+
+.Block {
+    display: flex;
+    gap: 3rem;
+}

@@ -8,5 +8,9 @@
 }
 
 .TextWrapper > h1 > span {
-    color: #0000ff;
+    color: var(--second-color-blue);
+}
+
+.TextWrapper > p {
+    margin-top: 1rem;
 }

@@ -7,8 +7,9 @@
 
 .ImgWrapper {
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
+    object-fit: cover;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -20,7 +21,7 @@
     height: 24rem;
     border-radius: 0 0 2rem;
     width: 150%;
-    background: red;
+    background: var(--second-color-light);
     z-index: -100;
 }
 

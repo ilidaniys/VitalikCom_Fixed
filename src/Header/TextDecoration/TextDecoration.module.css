@@ -1,5 +1,5 @@
 .TextDecoration > h1 {
-    color: white;
+    color: #ffffff;
     text-align: left;
     margin-top: auto;
     padding: 0 4rem;
@@ -9,11 +9,12 @@
 }
 
 .TextDecoration > h1 > p {
-    color: blue;
+    color: var(--second-color-blue);
 }
 
 .TextDecoration > p {
     padding: 2rem 4rem 2rem 4rem;
     font-size: 1.5rem;
     margin-bottom: auto;
+    color: #fff;
 }
