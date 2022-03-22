@@ -3,8 +3,9 @@
 }
 
 .TextWrapper > h1 {
-    display: flex;
-    gap: .5rem;
+    /*display: flex;*/
+    /*gap: .5rem;*/
+    font-size: 3rem;
 }
 
 .TextWrapper > h1 > span {
@@ -13,5 +14,5 @@
 
 .TextWrapper > p {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }

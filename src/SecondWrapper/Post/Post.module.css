@@ -1,0 +1,67 @@
+* {
+    --height-up-post: 40%;
+    --height-down-post: calc(100% - var(--height-up-post));
+}
+
+
+.Post {
+    border: .125rem solid #ccc;
+    border-radius: 2rem 2rem 0 2rem;
+    height: 22rem;
+    width: 22rem;
+    text-align: center;
+}
+
+.HeadPost {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: var(--height-up-post);
+    border-radius: 2rem 2rem 0 0;
+    /*background: #fec581;*/
+}
+
+.HeadPost > p {
+    display: block;
+    padding: 1rem 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--main-color-blue);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.NumberPost {
+    z-index: -100;
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+.NumberPost > p {
+    width: 100%;
+    height: 100%;
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--main-color-light-60);
+}
+
+.BotPost {
+    display: flex;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    border-radius: 0 0 0 2rem;
+    width: 100%;
+    height: var(--height-down-post);
+    background: var(--main-color-blue);
+}
+
+.BotPost > p {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}

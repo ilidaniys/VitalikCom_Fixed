@@ -1,13 +1,13 @@
 .Layout{
     position: relative;
-    width: 80%;
+    width: 76%;
     display: flex;
     flex-direction: column;
     gap: 12rem;
     flex-grow: 1;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 3rem 2rem;
+    /*padding: 0 3rem 2rem;*/
 
 }
 

@@ -9,12 +9,12 @@
     gap: 1rem;
 }
 
-.BlockWrapper:hover{
+.BlockWrapper:hover {
     transition: box-shadow .1s ease-in-out;
     box-shadow: 0 0 .4rem .2rem #FED088;
 }
 
-.MoreContent {
+.BlockWrapper:hover > .MoreContent {
 
 }
 
