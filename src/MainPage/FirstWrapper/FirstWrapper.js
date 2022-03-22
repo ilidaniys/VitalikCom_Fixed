@@ -4,9 +4,9 @@ import img1 from './1_telefonica.webp'
 import img2 from './2_gismart.webp'
 import img3 from './3_location.webp'
 import img4 from './4_maddict.webp'
-import Button from "../Component/Button/Button";
+import Button from "../../Component/Button/Button";
 
-const FirstWrapper = (props) => {
+const FirstWrapper = () => {
     return (
         <div className={classes.FirstWrapper}>
             <div className={classes.ImgWrapper}>

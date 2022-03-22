@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../../Component/Button/Button'
+import Button from '../../../../Component/Button/Button'
 import NavButton from "./NavButton/NavButton";
 
 const Menu = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './Main.module.css'
 import headerImage from './header-image.webp'
-import Button from "../../Component/Button/Button";
-import TextDecoration from "../TextDecoration/TextDecoration";
+import Button from "../../../Component/Button/Button";
+import TextDecoration from "./TextDecoration/TextDecoration";
 
 const Main = () => {
 

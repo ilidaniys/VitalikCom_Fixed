@@ -1,0 +1,21 @@
+.Gallery{
+    position: relative;
+    min-height: 20rem;
+    height: auto;
+}
+.Gallery > p {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.Background {
+    z-index: -100;
+    top: 0;
+    left: -10%;
+    position: absolute;
+    background: var(--third-main-color);
+    height: 100%;
+    width: 130%;
+    border-radius: 0 0 0 2rem;
+}

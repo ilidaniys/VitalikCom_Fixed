@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SecondWrapper.module.css'
-import TextWrapper from "../Component/TextWrapper/TextWrapper";
+import TextWrapper from "../../Component/TextWrapper/TextWrapper";
 import Post from "./Post/Post";
 
 const SecondWrapper = () => {

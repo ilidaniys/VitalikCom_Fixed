@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ThirdWrapper.module.css'
-import TextWrapper from "../Component/TextWrapper/TextWrapper";
+import TextWrapper from "../../Component/TextWrapper/TextWrapper";
 import img1 from './ImgSecondWrapper/1_java.webp'
 import img2 from './ImgSecondWrapper/2_dot_net.webp'
 import img3 from './ImgSecondWrapper/3_python.webp'
