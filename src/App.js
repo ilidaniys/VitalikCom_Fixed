@@ -14,7 +14,6 @@ function App() {
                 <FirstWrapper/>
                 <SecondWrapper/>
                 <ThirdWrapper/>
-                <SecondWrapper/>
             </Layout>
         </div>
     );

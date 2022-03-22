@@ -8,7 +8,7 @@ const BlockWrapper = (props) => {
             <div className={classes.BlockWrapper}>
                 {props.children}
                 <div className={classes.MoreContent}>
-                    <div className={classes.Dots}>...</div>
+                    <div className={classes.Dots}>. . .</div>
                     <div className={classes.SeeMore}>See More</div>
                 </div>
             </div>

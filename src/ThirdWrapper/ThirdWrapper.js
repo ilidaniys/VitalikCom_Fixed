@@ -14,11 +14,7 @@ const ThirdWrapper = () => {
     return (
         <div className={classes.SecondWrapper}>
             <TextWrapper>
-                <h1>
-                    OUR
-                    <span>
-                        EXPERTISE
-                    </span>
+                <h1> OUR <span> EXPERTISE </span>
                 </h1>
                 <p>This section should include a wide selection of developers that are available to hire across multiple
                     specialties and technologies. Later, we'll create separate landing pages for each.</p>
