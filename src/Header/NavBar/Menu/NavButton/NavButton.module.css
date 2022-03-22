@@ -1,0 +1,44 @@
+
+
+.NavButton {
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    background: none;
+    height: 1rem;
+    width: auto;
+    font-size: 1rem;
+
+}
+
+.NavButton > a {
+    position: relative;
+    text-decoration: none;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavButton >a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: .2rem;
+    background: var(--second-color-light);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: width 0.1s ease-in-out 0s;
+}
+
+.NavButton:hover {
+    cursor: pointer;
+}
+
+.NavButton > a:hover:before {
+    width: 100%;
+}
+.NavButton > a:active:before {
+    width: 120%;
+}

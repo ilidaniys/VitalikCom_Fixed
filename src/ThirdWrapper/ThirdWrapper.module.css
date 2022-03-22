@@ -5,6 +5,7 @@
 }
 
 .Block {
+    height: 20rem;
     margin-top: 1rem;
     display: flex;
     gap: 3rem;

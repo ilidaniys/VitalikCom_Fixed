@@ -1,8 +1,9 @@
 .BlockWrapper {
+    height: auto;
     margin-top: 1rem;
     padding: 1rem;
     display: grid;
-    border: .0625rem solid #000000;
+    border: .0625rem solid #ccc;
     border-radius: 2rem 2rem 0 2rem;
     grid-template-rows: 1fr 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,8 +15,44 @@
     box-shadow: 0 0 .4rem .2rem #FED088;
 }
 
-.BlockWrapper:hover > .MoreContent {
+.MoreContent {
+    grid-column: 2;
+    grid-row: 3;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    color: var(--main-color-light);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
 
+}
+
+.SeeMore {
+    transition: height .1s ease-in-out, padding-bottom .1s ease-in-out;
+    text-align: center;
+    height: 0;
+    padding-bottom: 0;
+}
+
+.Dots {
+    transition: height .1s ease-in-out, padding-bottom .1s ease-in-out;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    height: 0;
+    padding-bottom: 0;
+}
+
+
+.BlockWrapper:hover > .MoreContent > .Dots {
+    height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.BlockWrapper:hover > .MoreContent > .SeeMore {
+    height: 1rem;
+    padding-bottom: 4rem;
 }
 
 

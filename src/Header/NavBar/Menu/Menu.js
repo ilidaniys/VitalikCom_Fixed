@@ -1,15 +1,16 @@
 import React from 'react';
 import Button from '../../../Component/Button/Button'
+import NavButton from "./NavButton/NavButton";
 
-const Menu = (props) => {
+const Menu = () => {
 
 
     return (
         <>
-            <Button type={'NavButton'}>Services</Button>
-            <Button type={'NavButton'}> Our Work</Button>
-            <Button type={'NavButton'}>Company</Button>
-            <Button type={'NavButton'}>Blog</Button>
+            <NavButton type={'NavButton'}>Services</NavButton>
+            <NavButton type={'NavButton'}> Our Work</NavButton>
+            <NavButton type={'NavButton'}>Company</NavButton>
+            <NavButton type={'NavButton'}>Blog</NavButton>
             <Button type={'RegisterButton'}>
                 <i className={'fa fa-sign-in'}/>
                 Log in
