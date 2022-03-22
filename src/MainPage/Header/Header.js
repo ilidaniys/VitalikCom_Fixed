@@ -3,7 +3,7 @@ import NavBar from "./NavBar/NavBar";
 import classes from "./Header.module.css";
 import Main from "./Main/Main";
 
-function Header(props) {
+function Header() {
     return (
         <div className={classes.Header}>
             <NavBar/>

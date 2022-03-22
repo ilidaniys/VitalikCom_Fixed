@@ -7,7 +7,7 @@ import classes from './NavBar.module.css';
 const NavBar = () => {
     return (
         <div className={classes.NavBar}>
-            <img src={logo} alt="picture"/>
+            <img src={logo} alt="picture_alt"/>
             <Menu/>
         </div>
 

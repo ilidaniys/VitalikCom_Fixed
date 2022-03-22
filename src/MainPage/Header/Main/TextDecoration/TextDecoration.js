@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './TextDecoration.module.css'
 
-const TextDecoration = (props) => {
+const TextDecoration = () => {
     return (
         <div className={classes.TextDecoration}>
             <h1>
