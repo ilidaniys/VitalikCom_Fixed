@@ -9,7 +9,10 @@ const Card = (props) => {
             </div>
             <div className={classes.BodyCard}>
                 <div className={classes.BackGroundImg}>""</div>
-                <h1> {props.title}</h1>
+                <div className={classes.Title}>
+                    <h1>{props.name}</h1>
+                    <h1>{props.postCompany}</h1>
+                </div>
                 <p>{props.children}</p>
             </div>
         </div>

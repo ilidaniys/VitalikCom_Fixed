@@ -8,10 +8,38 @@ const Gallery = () => {
         <div className={classes.Gallery}>
             <div className={classes.Background}/>
             <h1>TESTIMONIALS</h1>
-            <Card
-                img={img1}
-                title={'People'}
-            />
+            <div className={classes.CardWrapper}>
+                <Card
+                    img={img1}
+                    name={'Alex Minets'}
+                    postCompany={'CTO'}
+                >
+
+                    This section should include a wide selection of developers that are available to hire
+                    across multiple specialties and technologies. Later, we'll create separate landing pages for
+                    each.This section should include a wide selection of developers that are available to hire across
+                    multiple specialties and technologies. Later, we'll create separate landing pages for each.</Card>
+                <Card
+                    img={img1}
+                    name={'Alex Minets'}
+                    postCompany={'CTO'}
+                >
+
+                    This section should include a wide selection of developers that are available to hire
+                    across multiple specialties and technologies. Later, we'll create separate landing pages for
+                    each.This section should include a wide selection of developers that are available to hire across
+                    multiple specialties and technologies. Later, we'll create separate landing pages for each.</Card>
+                <Card
+                    img={img1}
+                    name={'Alex Minets'}
+                    postCompany={'CTO'}
+                >
+
+                    This section should include a wide selection of developers that are available to hire
+                    across multiple specialties and technologies. Later, we'll create separate landing pages for
+                    each.This section should include a wide selection of developers that are available to hire across
+                    multiple specialties and technologies. Later, we'll create separate landing pages for each.</Card>
+            </div>
         </div>
     );
 };
