@@ -1,9 +1,26 @@
+.InputWrapper{
+    position: relative;
+}
+
 .Input {
     box-sizing: border-box;
     width: 100%;
     position: relative;
-    padding: 1rem 3rem;
+    padding: 3% 5%;
     background: none;
     border: .1rem solid #ccc;
+    border-radius: .5rem;
     color: #fff;
+}
+
+.Text{
+    left: 5%;
+    top: 25%;
+    position: absolute;
+    color: #fff;
+}
+
+.Input:active > .Text {
+    left: 0;
+    top: 0;
 }

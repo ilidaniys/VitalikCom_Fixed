@@ -1,12 +1,11 @@
 import React from 'react';
 import classes from './InputText.module.css'
 
-const InputText = () => {
+const InputText = (props) => {
     return (
-        <div>
-            <input className={classes.Input} type={'text'}>
-            </input>
-            <div>Full name</div>
+        <div className={classes.InputWrapper}>
+            <input className={classes.Input} type={'text'}/>
+            <div className={classes.Text}>{props.children}</div>
         </div>
     );
 };

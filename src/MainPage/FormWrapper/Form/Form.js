@@ -6,7 +6,7 @@ import InputText from "./InputText/inputText";
 const Form = () => {
     return (
         <form className={classes.Form}>
-            <InputText/>
+            <InputText> Full Name</InputText>
             <InputText/>
             <div className={classes.TextArea}>
                 <input type="text-area"/>
