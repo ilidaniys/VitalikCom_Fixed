@@ -1,11 +1,13 @@
-.Tutorial{
-
+.Tutorial {
+    /*border: .1rem solid black;*/
 }
 
-.Text{
-
+.Text {
+    margin-bottom: 2rem;
 }
 
-.TutorialCard{
-
+.TutorialCard {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
 }

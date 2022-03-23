@@ -6,6 +6,7 @@ import FirstWrapper from "./MainPage/FirstWrapper/FirstWrapper";
 import ThirdWrapper from "./MainPage/ThirdWrapper/ThirdWrapper";
 import SecondWrapper from "./MainPage/SecondWrapper/SecondWrapper";
 import Gallery from "./MainPage/Gallery/Gallery";
+import Tutorial from "./MainPage/Tutorial/Tutorial";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
                 <SecondWrapper/>
                 <ThirdWrapper/>
                 <Gallery/>
+                <Tutorial/>
+
             </Layout>
         </div>
     );
