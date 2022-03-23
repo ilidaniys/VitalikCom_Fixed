@@ -1,0 +1,9 @@
+.Input {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 1rem 3rem;
+    background: none;
+    border: .1rem solid #ccc;
+    color: #fff;
+}

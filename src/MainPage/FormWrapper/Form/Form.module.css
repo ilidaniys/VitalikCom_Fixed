@@ -1,0 +1,17 @@
+.Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    gap: 2rem;
+}
+
+.TextArea {
+    grid-column: 2;
+    grid-row:  1 /span 2;
+    height: 100%;
+    width: 100%;
+}
+
+.Submit {
+    margin-top: 15%;
+}
