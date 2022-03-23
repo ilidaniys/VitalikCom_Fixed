@@ -1,0 +1,36 @@
+.InputArea {
+    height: 100%;
+    position: relative;
+}
+
+.Input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    background: none;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.Text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    left: 1.5rem;
+    top: 1.3rem;
+    position: absolute;
+    color: #fff;
+    pointer-events: none;
+    transition: transform .1s cubic-bezier(.9, 0, .1, 1);
+}
+
+
+.Input:focus ~ .Text {
+    transform: translate(-1.5rem, -3rem)
+}
+
+.Input:not(:placeholder-shown) ~ .Text {
+    transform: translate(-1.5rem, -3rem)
+}

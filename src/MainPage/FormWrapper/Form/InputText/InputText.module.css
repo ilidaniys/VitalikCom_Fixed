@@ -1,26 +1,42 @@
 .InputWrapper{
+    /*margin-top: 2rem;*/
     position: relative;
+    width: 100%;
 }
 
 .Input {
     box-sizing: border-box;
     width: 100%;
-    position: relative;
-    padding: 3% 5%;
+    /*position: relative;*/
+    height: 4.1rem;
+    padding: 1.5rem;
     background: none;
     border: .1rem solid #ccc;
     border-radius: .5rem;
     color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 .Text{
-    left: 5%;
-    top: 25%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    left: 1.5rem;
+    top: 1.3rem;
     position: absolute;
     color: #fff;
+    pointer-events: none;
+    transition: transform .1s cubic-bezier(.9, 0, .1, 1);
+
 }
 
-.Input:active > .Text {
-    left: 0;
-    top: 0;
+.Input::placeholder{
+
+}
+
+.Input:focus ~ .Text{
+    transform: translate(-1.5rem, -3rem)
+}
+.Input:not(:placeholder-shown) ~ .Text {
+    transform: translate(-1.5rem, -3rem)
 }

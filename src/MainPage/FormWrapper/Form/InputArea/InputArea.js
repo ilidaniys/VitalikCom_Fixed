@@ -1,11 +1,11 @@
 import React from 'react';
 import classes from "./InputArea.module.css"
 
-const InputArea = () => {
+const InputArea = (props) => {
     return (
-        <div className={classes.AreaWrapper}>
-            <input className={} type="text-area"/>
-            <div className={classes.Text}></div>
+        <div className={classes.InputArea}>
+            <textarea className={classes.Input} type={'textarea'} placeholder={' '}/>
+            <div className={classes.Text}>{props.children}</div>
         </div>
     );
 };

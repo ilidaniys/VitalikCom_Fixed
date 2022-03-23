@@ -2,14 +2,15 @@ import React from 'react';
 import classes from "./Form.module.css"
 import Button from "../../../Component/Button/Button";
 import InputText from "./InputText/inputText";
+import InputArea from "./InputArea/InputArea";
 
 const Form = () => {
     return (
         <form className={classes.Form}>
             <InputText> Full Name</InputText>
-            <InputText/>
+            <InputText> Business Email</InputText>
             <div className={classes.TextArea}>
-                <input type="text-area"/>
+                <InputArea>Message</InputArea>
             </div>
             <div>
                 <input type="checkbox"/>
