@@ -1,0 +1,80 @@
+.PhoneWrapper{
+    position: absolute;
+    width: 13rem;
+    aspect-ratio: 1 / 2.2;
+    /*margin-bottom: 10rem;*/
+}
+
+.Phone {
+    margin-bottom: 10rem;
+    position: relative;
+    width: 13rem;
+    aspect-ratio: 1 / 2.2;
+    background: #777777;
+    border-radius: 2rem;
+    border: .1rem solid #000;
+}
+
+
+.Display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 96%;
+    height: 98%;
+    background: #000;
+    border-radius: 2rem;
+    border: .2rem solid #424242;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Plank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: 10%;
+    /*background: #fec581;*/
+}
+
+.Plank > div {
+    height: 0.4rem;
+    width: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0.0625rem 0.0625rem 0.25rem inset;
+    background: linear-gradient(90deg, rgb(49, 49, 49) 0.08rem, transparent 1%) center center / 0.1rem 0.1rem,
+    linear-gradient(rgb(49, 49, 49) 0.08rem, transparent 1%) center center, rgb(187, 187, 187);
+    border-radius: 3rem;
+}
+
+.InnerDisplay {
+    width: 96%;
+    height: 80%;
+    border: .2rem solid #000;
+    background: #fff;
+}
+
+.But{
+    z-index: -1;
+    position: absolute;
+    top: 15%;
+    left: 101%;
+    width: .3rem;
+    height: 4rem;
+    border-radius: 0 2rem 2rem 0;
+    background: var(--main-color-light);
+
+}
+
+.left {
+    transform: rotate(-10deg);
+    /*margin-left: 10rem;*/
+    box-shadow: rgb(51 51 51) 2rem 2rem 4rem;
+}
+
+
+.right {
+
+}
