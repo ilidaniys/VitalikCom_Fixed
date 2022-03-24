@@ -1,17 +1,52 @@
 .CheckboxWrapper {
 
 }
-
 .Checkbox {
-
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
 .CheckboxLabel {
+    position: relative;
     color: #fff;
     font-size: 0.9rem;
     user-select: none;
     cursor: pointer;
-    position: relative;
+    margin-left: 2rem;
+}
+
+.CheckboxLabel::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    height: 80%;
+    aspect-ratio: 1/1;
+    border: .14rem solid #fff;
+    border-radius: .3rem;
+}
+
+.CheckboxLabel::after{
+    content: " ";
+    position: absolute;
+    top: .1rem;
+    left: -1.05rem;
+    width: 0.25rem;
+    height: 0.65rem;
+    border-style: solid;
+    border-color: #fff;
+    border-image: initial;
+    border-width: 0 0.125rem 0.125rem 0;
+    transform: rotate(45deg);
+    visibility: hidden;
+}
+
+
+.Checkbox:checked + ::after{
+ visibility: visible;
 }
 
 .CheckboxLabel > a {

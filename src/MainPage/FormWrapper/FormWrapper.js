@@ -16,7 +16,7 @@ const FormWrapper = () => {
             </div>
             <div className={classes.PhoneWrapper}>
                 <Phone type={'left'}/>
-                {/*<Phone type={'right'}/>*/}
+                <Phone type={'right'}/>
             </div>
             <div className={classes.Background}/>
         </div>

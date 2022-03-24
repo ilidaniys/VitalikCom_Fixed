@@ -16,9 +16,9 @@
 
 .Submit {
     /*width: 100%;*/
+    margin-top: 1rem;
     margin-right: 20rem;
     grid-column: 2;
     grid-row: 3;
     margin-left: auto;
-
 }

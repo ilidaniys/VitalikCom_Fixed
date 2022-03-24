@@ -1,12 +1,10 @@
 .FormWrapper {
     position: relative;
-    /*border: .1rem solid black;*/
     height: 33rem;
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 2.2fr 1fr;
     gap: 3rem;
-    /*margin-top: 2rem;*/
 
 }
 
@@ -26,18 +24,16 @@
     width: 130%;
     top: 0;
     right: 0;
-    margin-right: -8%;
+    margin-right: -9%;
     z-index: -100;
     border-radius: 0 0 13rem 0;
 }
 
 .TextArea {
-    /*grid-column: 2;*/
-    /*grid-row: 1 /span 2;*/
+
 }
 
 .PhoneWrapper {
-    border: .1rem solid black;
     grid-column: 2;
     grid-row: 1 /span 2;
     position: relative;

@@ -3,12 +3,11 @@ import classes from './Phone.module.css'
 
 const Phone = (props) => {
     const cls = [
-        classes.PhoneWrapper,
+        classes.Phone,
         classes[props.type]
     ]
     return (
         <div className={cls.join(' ')}>
-            <div className={classes.Phone}>
                 <div className={classes.Display}>
                     <div className={classes.Plank}>
                         <div/>
@@ -19,7 +18,6 @@ const Phone = (props) => {
                     </div>
                 </div>
                 <div className={classes.But}/>
-            </div>
         </div>
     );
 };
