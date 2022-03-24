@@ -14,7 +14,6 @@ const Gallery = () => {
                     name={'Alex Minets'}
                     postCompany={'CTO'}
                 >
-
                     This section should include a wide selection of developers that are available to hire
                     across multiple specialties and technologies. Later, we'll create separate landing pages for
                     each.This section should include a wide selection of developers that are available to hire across
@@ -24,7 +23,6 @@ const Gallery = () => {
                     name={'Alex Minets'}
                     postCompany={'CTO'}
                 >
-
                     This section should include a wide selection of developers that are available to hire
                     across multiple specialties and technologies. Later, we'll create separate landing pages for
                     each.This section should include a wide selection of developers that are available to hire across
@@ -34,7 +32,6 @@ const Gallery = () => {
                     name={'Alex Minets'}
                     postCompany={'CTO'}
                 >
-
                     This section should include a wide selection of developers that are available to hire
                     across multiple specialties and technologies. Later, we'll create separate landing pages for
                     each.This section should include a wide selection of developers that are available to hire across

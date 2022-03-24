@@ -20,22 +20,26 @@ const ThirdWrapper = () => {
                     specialties and technologies. Later, we'll create separate landing pages for each.</p>
             </TextWrapper>
             <div className={classes.Block}>
-                <BlockWrapper title={'PROGRAMMING LANGUAGES'}>
-                    <img src={img1} alt="imge1"/>
-                    <img src={img2} alt="imge2"/>
-                    <img src={img3} alt="imge3"/>
-                    <img src={img4} alt="imge4"/>
-                    <img src={img5} alt="imge5"/>
-                    <img src={img6} alt="imge6"/>
-                </BlockWrapper>
-                <BlockWrapper title={'CLOUDS AND DATA LAKES'}>
-                    <img src={img1} alt="imge1"/>
-                    <img src={img2} alt="imge2"/>
-                    <img src={img3} alt="imge3"/>
-                    <img src={img4} alt="imge4"/>
-                    <img src={img5} alt="imge5"/>
-                    <img src={img6} alt="imge6"/>
-                </BlockWrapper>
+                <a href="">
+                    <BlockWrapper title={'PROGRAMMING LANGUAGES'}>
+                        <img src={img1} alt="imge1"/>
+                        <img src={img2} alt="imge2"/>
+                        <img src={img3} alt="imge3"/>
+                        <img src={img4} alt="imge4"/>
+                        <img src={img5} alt="imge5"/>
+                        <img src={img6} alt="imge6"/>
+                    </BlockWrapper>
+                </a>
+                <a href="/">
+                    <BlockWrapper title={'CLOUDS AND DATA LAKES'}>
+                        <img src={img1} alt="imge1"/>
+                        <img src={img2} alt="imge2"/>
+                        <img src={img3} alt="imge3"/>
+                        <img src={img4} alt="imge4"/>
+                        <img src={img5} alt="imge5"/>
+                        <img src={img6} alt="imge6"/>
+                    </BlockWrapper>
+                </a>
             </div>
         </div>
     );

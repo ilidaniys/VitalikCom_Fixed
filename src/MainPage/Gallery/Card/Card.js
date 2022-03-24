@@ -8,7 +8,7 @@ const Card = (props) => {
                 <img src={props.img} alt="people"/>
             </div>
             <div className={classes.BodyCard}>
-                <div className={classes.BackGroundImg}>""</div>
+                <div className={classes.BackGroundImg}>“</div>
                 <div className={classes.Title}>
                     <h1>{props.name}</h1>
                     <h1>{props.postCompany}</h1>
